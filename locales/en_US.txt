@@ -1,0 +1,73 @@
+SCHEDULE:       "Schedule"
+NEW_SCHEDULE:   "New Schedule"
+LOAD_SCHEDULE:  "Load Schedule"
+SAVE_SCHEDULE:  "Save Schedule"
+CATALOG:        "Catalog"
+NEW_CATALOG:    "New Catalog"
+LOAD_CATALOG:   "Load Catalog"
+SAVE_CATALOG:   "Save Catalog"
+GEN_CATALOG:    "Generate Catalog..."
+
+MSG_OVERLAP:          "You can't enroll in this class, because its time overlaps with another."
+MSG_ENROLLED_CLASS:   "You are already enrolled in this class."
+MSG_ENROLLED_GROUP:   "You are already enrolled in this course."
+MSG_NEED_CATALOG:     "A catalog must be loaded before attempting to load a schedule."
+
+MSG_SCHEDULE_LOAD_FAIL_PARSE:           "An error occurred while parsing file: "
+MSG_SCHEDULE_LOAD_FAIL_READ:            "An error occurred while reading file: "
+MSG_SCHEDULE_LOAD_FAIL_OVERLAP:         "Failed to load schedule; schedule contains overlapping classes."
+MSG_SCHEDULE_LOAD_FAIL_ENROLLED_CLASS:  "Failed to load schedule; schedule contains duplicate classes."
+MSG_SCHEDULE_LOAD_FAIL_ENROLLED_GROUP:  "Failed to load schedule; schedule contains duplicate courses."
+MSG_SCHEDULE_LOAD_FAIL:                 "An error occurred while loading schedule: "
+
+MSG_SCHEDULE_SAVE_FAIL_JSON:    "An error occurred while generating JSON code: "
+MSG_SCHEDULE_SAVE_FAIL:         "An error occurred while writing file: "
+
+MSG_CATALOG_LOAD_FAIL_PARSE:    "An error occurred while parsing file: "
+MSG_CATALOG_LOAD_FAIL_READ:     "An error occurred while reading file: "
+
+MSG_CATALOG_SAVE_FAIL_JSON:     "An error occurred while generating JSON code: "
+MSG_CATALOG_SAVE_FAIL:          "An error occurred while writing file: "
+
+COL_CLASS_DAY:          "Day"
+COL_CLASS_TIME:         "Time"
+COL_CLASS_WEEK:         "Week"
+COL_CLASS_TYPE:         "Type"
+COL_CLASS_INSTRUCTOR:   "Instructor"
+COL_CLASS_LOCATION:     "Location"
+COL_GROUP_CODE:         "Group Code"
+COL_COURSE_NAME:        "Course Name"
+
+COL_SCHEDULE_TIME:      "Time"
+
+DAY_MONDAY:     "Monday"
+DAY_TUESDAY:    "Tuesday"
+DAY_WEDNESDAY:  "Wednesday"
+DAY_THURSDAY:   "Thursday"
+DAY_FRIDAY:     "Friday"
+
+WEEK_EACH:      "Weekly"
+WEEK_EVEN:      "Even Weeks"
+WEEK_ODD:       "Odd Weeks"
+
+WEEK_EACH_SHORT:  ""
+WEEK_EVEN_SHORT:  "EW"
+WEEK_ODD_SHORT:   "OW"
+
+TYPE_LECTURE:     "Lecture"
+TYPE_LABORATORY:  "Lab"
+// Practice, Discussions, Colloquium? Need a good translation
+TYPE_PRACTICE:    "Practice"
+TYPE_SEMINAR:     "Seminar"
+TYPE_PROJECT:     "Project"
+TYPE_OTHER:       "Other"
+
+TYPE_LECTURE_SHORT:     "LE"
+TYPE_LABORATORY_SHORT:  "LA"
+TYPE_PRACTICE_SHORT:    "P"
+TYPE_SEMINAR_SHORT:     "S"
+TYPE_PROJECT_SHORT:     "PR"
+TYPE_OTHER_SHORT:       "O"
+
+SCRAPER_SOURCE:   "Source"
+SCRAPER_INFO:     "TODO"

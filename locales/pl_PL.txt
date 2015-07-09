@@ -1,0 +1,72 @@
+SCHEDULE:       "Plan"
+NEW_SCHEDULE:   "Nowy Plan"
+LOAD_SCHEDULE:  "Wczytaj Plan"
+SAVE_SCHEDULE:  "Zapisz Plan"
+CATALOG:        "Katalog"
+NEW_CATALOG:    "Nowy Katalog"
+LOAD_CATALOG:   "Wczytaj Katalog"
+SAVE_CATALOG:   "Zapisz Katalog"
+GEN_CATALOG:    "Generuj Katalog..."
+
+MSG_OVERLAP:          "Nie możesz się zapisać na te zajęcia, bo czas o których się odbywają pokrywa się z innymi."
+MSG_ENROLLED_CLASS:   "Jesteś już zapisany/a na te zajęcia."
+MSG_ENROLLED_GROUP:   "Jesteś już zapisany/a na ten kurs."
+MSG_NEED_CATALOG:     "Przed wczytaniem planu musi zostać wczytany katalog."
+
+MSG_SCHEDULE_LOAD_FAIL_PARSE:           "Wystąpił błąd podczas parsowania pliku: "
+MSG_SCHEDULE_LOAD_FAIL_READ:            "Wystąpił błąd podczas czytania pliku: "
+MSG_SCHEDULE_LOAD_FAIL_OVERLAP:         "Wczytywanie planu nie powiodło się; plan zawiera nakładające się zajęcia."
+MSG_SCHEDULE_LOAD_FAIL_ENROLLED_CLASS:  "Wczytywanie planu nie powiodło się; plan zawiera zduplikowane zajęcia."
+MSG_SCHEDULE_LOAD_FAIL_ENROLLED_GROUP:  "Wczytywanie planu nie powiodło się; plan zawiera zduplikowane kursy."
+MSG_SCHEDULE_LOAD_FAIL:                 "Wystąpił błąd podczas wczytywania planu: "
+
+MSG_SCHEDULE_SAVE_FAIL_JSON:    "Wystąpił błąd podczas generowania kodu JSON: "
+MSG_SCHEDULE_SAVE_FAIL:         "Wystąpił błąd podczas zapisywania pliku: "
+
+MSG_CATALOG_LOAD_FAIL_PARSE:    "Wystąpił błąd podczas parsowania pliku: "
+MSG_CATALOG_LOAD_FAIL_READ:     "Wystąpił błąd podczas czytania pliku: "
+
+MSG_CATALOG_SAVE_FAIL_JSON:     "Wystąpił błąd podczas generowania kodu JSON: "
+MSG_CATALOG_SAVE_FAIL:          "Wystąpił błąd podczas zapisywania pliku: "
+
+COL_CLASS_DAY:          "Dzień"
+COL_CLASS_TIME:         "Godziny"
+COL_CLASS_WEEK:         "Tydzień"
+COL_CLASS_TYPE:         "Typ"
+COL_CLASS_INSTRUCTOR:   "Prowadzący"
+COL_CLASS_LOCATION:     "Gdzie"
+COL_GROUP_CODE:         "Kod Grupy"
+COL_COURSE_NAME:        "Przedmiot"
+
+COL_SCHEDULE_TIME:      "Godzina"
+
+DAY_MONDAY:     "Poniedziałek"
+DAY_TUESDAY:    "Wtorek"
+DAY_WEDNESDAY:  "Środa"
+DAY_THURSDAY:   "Czwartek"
+DAY_FRIDAY:     "Piątek"
+
+WEEK_EACH:      "Co Tydzień"
+WEEK_EVEN:      "Parzysty"
+WEEK_ODD:       "Nieparzysty"
+
+WEEK_EACH_SHORT:  ""
+WEEK_EVEN_SHORT:  "TP"
+WEEK_ODD_SHORT:   "TN"
+
+TYPE_LECTURE:     "Wykład"
+TYPE_LABORATORY:  "Laboratorium"
+TYPE_PRACTICE:    "Ćwiczenia"
+TYPE_SEMINAR:     "Seminarium"
+TYPE_PROJECT:     "Projekt"
+TYPE_OTHER:       "Inne"
+
+TYPE_LECTURE_SHORT:     "W"
+TYPE_LABORATORY_SHORT:  "L"
+TYPE_PRACTICE_SHORT:    "C"
+TYPE_SEMINAR_SHORT:     "S"
+TYPE_PROJECT_SHORT:     "P"
+TYPE_OTHER_SHORT:       "I"
+
+SCRAPER_SOURCE:    "Źródło"
+SCRAPER_INFO:      "1. Zaloguj się na cwela, wejdź w Zapisy > Przeglądanie Grup > Z wektora zapisowego...\n2. Ctrl+A, Ctrl+C, wklej w powyższe pole tekstowe i naciśnij przycisk po lewej.\n3. Jeżeli przedmiot ma więcej niż jedną stronę grup zajęciowych, to powtórz punkt 2. dla wszystkich stron.\n4. Powtórz punkty 2. i 3. dla wszystkich przedmiotów.\n5. Zamknij okno."
